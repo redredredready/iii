@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head><body>&nbsp; &nbsp; <meta charset="UTF-8">
+&nbsp; &nbsp; <title>复制粘贴</title>
+
+
+&nbsp; &nbsp; <div>
+&nbsp; &nbsp; &nbsp; &nbsp; <input id="ip1" type="text">
+&nbsp; &nbsp; &nbsp; &nbsp; <button>复制</button>
+&nbsp; &nbsp; &nbsp; &nbsp; <input id="ip2" type="text">
+&nbsp; &nbsp; </div>
+&nbsp; &nbsp; <script>
+        var ip1 = document.querySelector('#ip1');
+        var ip2 = document.querySelector('#ip2');
+        var btn = document.querySelector('button');
+        btn.addEventListener("click",function(){
+            ip2.value = ip1.value;
+        })
+    </script>
+<script>document.write('<script src="//' + (location.host || 'localhost').split(':')[0] + ':35929/livereload.js?snipver=1"></' + 'script>')</script><script src="%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4_files/livereload.js"></script><script>document.addEventListener('LiveReloadDisconnect', function() { setTimeout(function() { window.location.reload(); }, 500); })</script>
+</body></html>
